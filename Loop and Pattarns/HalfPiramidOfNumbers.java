@@ -7,7 +7,6 @@ public class HalfPiramidOfNumbers {
         for (int i = 1; i <= n; i++) {
             for (int count = 1; count <= i; count++) {
                 System.out.print(count);
-
             }
             System.out.println();
         }
