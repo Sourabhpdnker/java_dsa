@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Calculator {
 
@@ -14,28 +14,19 @@ public class Calculator {
         char operator = scan.next().charAt(0);
 
         switch (operator) {
-            case '+':
-                System.out.println("Result : " + (a + b));
-                break;
+            case '+' -> System.out.println("Result : " + (a + b));
 
-            case '-':
-                System.out.println("Result : " + (a - b));
-                break;
+            case '-' -> System.out.println("Result : " + (a - b));
 
-            case '/':
-                System.out.println("Result : " + (a / b));
-                break;
+            case '/' -> System.out.println("Result : " + (a / b));
 
-            case '%':
-                System.out.println("Result : " + (a % b));
-                break;
+            case '%' -> System.out.println("Result : " + (a % b));
 
-            case '*':
-                System.out.println("Result : " + (a * b));
-                break;
-            default:
+            case '*' -> System.out.println("Result : " + (a * b));
+            default -> {
                 System.out.println("try again  . . .. ");
                 throw new AssertionError();
+            }
         }
     }
 }

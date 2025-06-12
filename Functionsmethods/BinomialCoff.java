@@ -9,7 +9,7 @@ public class BinomialCoff {
         return f;
     }
 
-    public static int BinomialCoff(int n, int r) {
+    public static int binomialCoff(int n, int r) {
         int factorial_n = factorial(n);
         int factorial_r = factorial(r);
         int factorial_nmr = factorial(n - r);
@@ -19,7 +19,7 @@ public class BinomialCoff {
     }
 
     public static void main(String[] args) {
-        System.out.println(BinomialCoff(5, 2));
+        System.out.println(binomialCoff(5, 2));
 
     }
 }
