@@ -1,6 +1,6 @@
 # 📘 Data Structures & Algorithms (DSA) Practice Repository
 
-Welcome to my **DSA Practice Repository**, where I’m actively solving problems, documenting concepts, and preparing for top hiring challenges like **Flipkart GRID 7.0**, **JustPay Hiring Challenge**, and **upcoming placements**.
+Welcome to my **DSA Practice Repository**, where I’m actively solving problems, documenting concepts, and preparing for top hiring challenges like **Hiring Challenges**, and **upcoming placements**.
 
 This repository reflects my consistent effort to build a strong foundation in **problem-solving**, **algorithm design**, and **code optimization** — key skills required for technical interviews and real-world software development.
 
