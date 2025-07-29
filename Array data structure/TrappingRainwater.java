@@ -11,7 +11,6 @@ public class TrappingRainwater {
         rightmax[n-1]  = height[n-1];
         for (int i = n-2; i >= 0; i--) {
             rightmax[i] = Math.max(height[i], rightmax[i+1]);
-            
         }
         int trappedwater = 0;
         //loop 
@@ -20,7 +19,6 @@ public class TrappingRainwater {
             int waterLevel = Math.min(leftmax[i], rightmax[i]);
             //trapped water
             trappedwater += waterLevel - height[i];
-            
         }
         return trappedwater;
     }
@@ -28,5 +26,4 @@ public class TrappingRainwater {
         int height[] = {4,2,0,6,3,2,5};
         System.out.println(TrappingRainwater(height));
     }
-    
 }
