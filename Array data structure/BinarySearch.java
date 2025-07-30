@@ -5,7 +5,7 @@ public class BinarySearch {
 
         while (start<=end) {
             int mid = (start+end)/2;
-            System.out.println(mid);
+            // System.out.println(mid);
 
             //compare
             if(numbers[mid] == key){
@@ -22,8 +22,8 @@ public class BinarySearch {
         return -1;
     }
     public static void main(String[] args) {
-        int numbers[] = {4,8,12,15,16,71,34,67};
-        int key =34;
+        int numbers[] = {0,1,2,3,4,5,6,7};
+        int key =5;
         System.out.println(Binary(numbers, key));
     }
 }
