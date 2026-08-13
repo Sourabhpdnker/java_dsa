@@ -14,5 +14,6 @@ public class NumberPrint {
             count++;
         }
         System.out.println("This is the sum of N natural numbers that you entred : " + sum);
+        scan.close();
     }
 }

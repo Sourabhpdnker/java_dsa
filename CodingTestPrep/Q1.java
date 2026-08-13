@@ -23,7 +23,7 @@ public class Q1 {
             System.out.println(0);
         }
         
-        
+        sc.close();
     }
     
 }

@@ -20,5 +20,6 @@ public class Arraysinputoutput {
 
         float persentage = (marks[0]+marks[1]+marks[3])/3;
         System.out.println("persntage of this 3 subjects is "+persentage+"%");
+        sc.close();
     }
 }

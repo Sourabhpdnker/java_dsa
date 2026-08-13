@@ -17,5 +17,6 @@ public class IncomeTax {
             tax = (int) (income * 0.3);
         }
         System.out.println("Your tax will be : " + tax + " Rs");
+        scan.close();
     }
 }

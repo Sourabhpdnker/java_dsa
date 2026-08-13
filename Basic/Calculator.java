@@ -28,5 +28,6 @@ public class Calculator {
                 throw new AssertionError();
             }
         }
+        scan.close();
     }
 }
